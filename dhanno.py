@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 
 def dhanno():
-    return "Sansar bai avghad toh pakka Dhananjay rao n ch naav ghet Navra Mazha Chakka"
+    return "Welcome to KUBERNETES!!!!"
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True)
+    app.run(host='0.0.0.0',port=7000, debug=True)
